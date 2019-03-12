@@ -1,0 +1,27 @@
+﻿
+<script type="text/ng-template" id="TournamentForm.html">
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="cancel()" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Tournament</h4>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <label class="control-label col-lg-3">Tournament name</label>
+            <input type="text" class="form-control col-lg-9" ng-model="Tournament.TournamentName" />
+        </div>
+        <div class="row">
+            <label class="control-label col-lg-3">Start date</label>
+            <input type="date" class="form-control col-lg-9" ng-model="Tournament.StartDate" />
+        </div>
+        <div class="row">
+            <label class="control-label col-lg-3">End date</label>
+            <input type="date" class="form-control col-lg-9" ng-model="Tournament.EndDate" />
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary" ng-click="ok()">Save changes</button>
+        <button type="button" class="btn btn-default" ng-click="cancel()" data-dismiss="modal">Close</button>
+
+    </div>
+</script>

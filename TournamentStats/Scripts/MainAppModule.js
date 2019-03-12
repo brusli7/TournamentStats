@@ -1,0 +1,1 @@
+﻿angular.module("MainAppModule", ['ui.bootstrap', 'dndLists']);
